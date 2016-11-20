@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "outDir": "app/js",
+        "module": "commonjs",
+        "sourceMap": true
+    },
+    "files": [
+        "app/greeter.ts",
+        "app/name.ts"
+    ]
+}
