@@ -113,6 +113,7 @@ add a .gitignore to the root directory
     type in node and generate
     this generates a .gitignore file for you...
     copy and paste this into the .gitignore file in your root directory.
+    this ignores stuff like node_modules folder which is useless...
 
 
 go to github and sign in.
@@ -120,13 +121,11 @@ create a new repository.
 
 Run these commands:
     git init
-    git add README.md
-    git commit -m "first commit"
-    git remote add origin "enter repository"
-    git status
+    git status (notice everything in red)
     git add --all
+    git status (notice everything in green)
     git commit -m "description"
-    git push -u origin master
+    git status (notice now says nothing to commit - your code is safe)
 
 
 */
