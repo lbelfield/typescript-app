@@ -126,6 +126,10 @@ Run these commands:
     git status (notice everything in green)
     git commit -m "description"
     git status (notice now says nothing to commit - your code is safe)
+    (the next step depends on the generated url)
+    git remote add origin https://github.com/lbelfield/typescript.git
+    git push -u origin master
+
 
 
 */
