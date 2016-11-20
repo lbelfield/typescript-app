@@ -115,15 +115,19 @@ Run these commands:
     git commit -m "description"
     git status (notice now says nothing to commit - your code is safe)
     (the next step depends on the generated url)
-    git remote add origin https://github.com/lbelfield/typescript.git
+    git remote add origin https://github.com/...
     git push -u origin master
 
 
 PUSHING CHANGES:
 
 change file
-git status (to see what is outstanding)
+git status (to see what is outstanding - notice it is red)
 git add --all
+git status (notice it is green)
+git commit -m "description"
+git status (notice now says nothing to commit - your code is safe)
+git push -u origin master
 
 
 //todo - less, bower, angular2, typings
