@@ -124,9 +124,8 @@ Run these commands:
     git commit -m "first commit"
     git remote add origin "enter repository"
     git status
-    git add file_name (do this repeatedly)
-       Note: dont check in node_modules
-       http://stackoverflow.com/questions/11459475/should-i-check-in-node-modules-to-git-when-creating-a-node-js-app-on-heroku
+    git add --all
+    git commit -m "description"
     git push -u origin master
 
 
