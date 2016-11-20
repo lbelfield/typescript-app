@@ -95,20 +95,9 @@ typescript:
 
 
 
+SET UP GIT FOR FIRST TIME:
 
-
-
-//todo - less, bower, angular2, typings
-
-
-
-
-
-
-
-
-
-add a .gitignore to the root directory
+1 add a .gitignore to the root directory
     go to: https://www.gitignore.io/
     type in node and generate
     this generates a .gitignore file for you...
@@ -116,8 +105,7 @@ add a .gitignore to the root directory
     this ignores stuff like node_modules folder which is useless...
 
 
-go to github and sign in.
-create a new repository.
+2 Go to github and sign in - create a new repository.
 
 Run these commands:
     git init
@@ -130,6 +118,15 @@ Run these commands:
     git remote add origin https://github.com/lbelfield/typescript.git
     git push -u origin master
 
+
+PUSHING CHANGES:
+
+change file
+git status (to see what is outstanding)
+git add --all
+
+
+//todo - less, bower, angular2, typings
 
 
 */
